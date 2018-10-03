@@ -13,7 +13,11 @@
             for (var i = 0; i < Star.length; i++){
                 if (nameOfStar === Star[i]){
                     alert(Constellation[i]);
+                    break;
                 }
+            }
+            if (i === Star.length){
+                alert("I don't know");
             }
         }
         isConstellationOfStar(nameOfStar);
